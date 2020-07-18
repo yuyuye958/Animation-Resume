@@ -1,0 +1,39 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.wrapper {
+	height: 100vh;
+	display: flex;
+}
+
+#code {
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+}
+
+#paper {
+	overflow: auto;
+}
+
+.token.comment,
+.token.punctuation,
+.token.property,
+.token.selector {
+	color: black;
+}
+
+@keyframes breath {
+	0% {
+		box-shadow: 0 0 1px 0px #cfd8dc;
+	}
+	50% {
+		box-shadow: 0 0 6px 2px #cfd8dc;
+	}
+	100% {
+		box-shadow: 0 0 1px 0px #cfd8dc;
+	}
+}
